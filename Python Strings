@@ -1,0 +1,8 @@
+hometown = "Dallas, TX"
+print(hometown)
+
+country_of_birth = "United States of America"
+print(country_of_birth)
+
+sentence = f"I am from {hometown}, in {country_of_birth}, and the 3 first letters of my country are {country_of_birth[:3]}"
+print(sentence)
