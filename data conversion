@@ -1,0 +1,7 @@
+temperature = input("What is the current temperature in Celsius? ")
+temperature = float(temperature)
+
+fahrenheit = temperature * 9 / 5 + 32
+fahrenheit_rounded = round(fahrenheit)
+
+print(f"It is currently {fahrenheit_rounded} degrees in Fahrenheit")
