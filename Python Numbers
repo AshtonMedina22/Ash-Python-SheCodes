@@ -1,16 +1,10 @@
-print("=" * 50)
-print("PYTHON FUNDAMENTALS DEMONSTRATION")
-print("=" * 50)
-
 city_name = "Dallas, TX"
 print(f"City: {city_name}")
 print(f"Data type of city_name: {type(city_name)}")
-print()
 
 temperature_fahrenheit = 88
 print(f"Temperature in Fahrenheit: {temperature_fahrenheit}°F")
 print(f"Data type of temperature_fahrenheit: {type(temperature_fahrenheit)}")
-print()
 
 temperature_celsius = (temperature_fahrenheit - 32) * 5 / 9
 print(f"Temperature in Celsius (before rounding): {temperature_celsius}°C")
@@ -18,7 +12,6 @@ print(f"Data type of temperature_celsius: {type(temperature_celsius)}")
 
 temperature_celsius_rounded = round(temperature_celsius)
 print(f"Temperature in Celsius (rounded): {temperature_celsius_rounded}°C")
-print()
 
 power_result = pow(2, 3)
 print(f"2 to the power of 3 using pow(2, 3): {power_result}")
@@ -26,35 +19,11 @@ print(f"Data type of power_result: {type(power_result)}")
 
 power_alternative = 2 ** 3
 print(f"2 to the power of 3 using ** operator: {power_alternative}")
-print()
 
 negative_number = -10
 absolute_value = abs(negative_number)
 print(f"Absolute value of {negative_number}: {absolute_value}")
 print(f"Data type of absolute_value: {type(absolute_value)}")
-print()
-
-print("=" * 30)
-print("SUMMARY OF ALL RESULTS:")
-print("=" * 30)
-print(f"📍 City: {city_name}")
-print(f"🌡️  Temperature in Fahrenheit: {temperature_fahrenheit}°F")
-print(f"🌡️  Temperature in Celsius (exact): {temperature_celsius}°C")
-print(f"🌡️  Temperature in Celsius (rounded): {temperature_celsius_rounded}°C")
-print(f"🔢 2 to the power of 3: {power_result}")
-print(f"📏 Absolute value of -10: {absolute_value}")
-print()
-
-print("=" * 30)
-print("BONUS: MORE DATA TYPE EXAMPLES:")
-print("=" * 30)
-
-is_hot_day = temperature_fahrenheit > 80
-print(f"Is it a hot day? (temperature > 80°F): {is_hot_day}")
-print(f"Data type of is_hot_day: {type(is_hot_day)}")
-
-temperatures = [88, 85, 90, 82, 87]
-print(f"List of temperatures: {temperatures}")
 print(f"Data type of temperatures: {type(temperatures)}")
 print(f"Average temperature: {sum(temperatures) / len(temperatures)}")
 
