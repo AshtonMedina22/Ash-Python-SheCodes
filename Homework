@@ -1,0 +1,11 @@
+name = input("What is your name? ")
+city = input("Which city are you currently in? ")
+current_temp_celsius = float(input("What is the current temperature in Celsius? "))
+
+current_temp_fahrenheit = round((current_temp_celsius * 9 / 5) + 32)
+tonight_temp_celsius = current_temp_celsius - 10
+tonight_temp_fahrenheit = round((tonight_temp_celsius * 9 / 5) + 32)
+
+print(f"Hi {name}, you are in {city}, and it is currently {current_temp_celsius}ºC or {current_temp_fahrenheit}ºF.")
+print(f"I predict that tonight, the temperature will reach {tonight_temp_celsius}ºC or {tonight_temp_fahrenheit}ºF.")
+print("Have a good day!")
