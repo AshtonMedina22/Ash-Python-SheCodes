@@ -1,4 +1,7 @@
-def get_city_temperature():
+def welcome_user():
+    print("Welcome to our amazing weather app!")
+
+def get_user_location_and_temperature():
     city = input("What city are you in? ")
     temperature = input(f"What is the current temperature in {city}? ")
     
@@ -7,5 +10,5 @@ def get_city_temperature():
     else:
         print("You did not provide a city and/or temperature.")
 
-get_city_temperature()
-get_city_temperature()
+get_user_location_and_temperature()
+get_user_location_and_temperature()
