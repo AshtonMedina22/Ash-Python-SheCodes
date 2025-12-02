@@ -1,11 +1,14 @@
-temperature = int(input("What is the temperature? "))
-raining = input("Is it raining? (yes/no) ").lower()
+temperature = input("What is the temperature? ")
+temperature = int(temperature)
 
-if temperature >= 20 and raining == "yes":
-    print("Don't forget your umbrella")
-elif temperature >= 20 and raining == "no":
+rainy = input("Is it raining? (yes/no) ")
+rainy = rainy.lower()
+
+if temperature > 20 and rainy == 'no':
     print("Enjoy a sunny day")
-elif temperature < 20 and raining == "yes":
+elif temperature > 20 and rainy == 'yes':
+    print("Don't forget your umbrella")
+elif temperature < 20 and rainy == 'yes':
     print("Don't forget your umbrella and your jacket")
 else:
     print("Don't forget your jacket")
